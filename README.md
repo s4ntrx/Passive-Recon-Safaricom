@@ -1,9 +1,9 @@
 # Passive Reconnaissance Report: Safaricom PLC
 
-**Assignment:** Offensive Recon Fundamentals - Mission
-**Target:** Safaricom PLC (`safaricom.co.ke`)
-**Date:** 11 November, 2026
-**Analyst:** S4NTRX
+**Assignment:** Passive Recon 
+- **Target:** Safaricom PLC (`safaricom.co.ke`)
+- **Date:** 11 November, 2026
+- **Analyst:** S4NTRX
 
 ---
 
