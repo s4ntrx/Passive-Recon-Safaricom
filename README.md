@@ -17,7 +17,7 @@
 > **Analyst Note:** Safaricom transitioned its bounty program to Bugcrowd in late 2024. This report strictly adheres to passive reconnaissance to avoid any violation of their infrastructure rules. Out-of-scope assets (e.g., `dev`, `staging`, `uat`) were noted but not touched.
 
 **Scope Confirmation Screenshot:**
-![Safaricom Responsible Disclosure Policy](screenshots/01-scope-policy.png)
+![Safaricom Responsible Disclosure Policy](screenshots/disclosure.png)
 
 ---
 
