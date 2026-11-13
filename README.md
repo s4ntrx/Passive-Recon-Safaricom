@@ -2,8 +2,8 @@
 
 **Assignment:** Offensive Recon Fundamentals - Mission
 **Target:** Safaricom PLC (`safaricom.co.ke`)
-**Date:** [Insert Date]
-**Analyst:** [Your Name/Handle]
+**Date:** 11 November, 2026
+**Analyst:** S4NTRX
 
 ---
 
@@ -33,25 +33,24 @@ The following OSINT source classes and tools were utilized:
 4.  **Public Code Repositories:** `GitHub` was queried for public repositories associated with the organization.
 
 **Certificate Transparency (crt.sh) Screenshot:**
-![crt.sh Enumeration](screenshots/02-crt-sh.png)
+![crt.sh Enumeration](screenshots/crt.png)
 
 **DNS / ASN Analysis Screenshot:**
-![DNS and ASN Records](screenshots/03-dns-asn.png)
+![DNS and ASN Records](screenshots/dnsrecords.png)
 
 **Code Repository Analysis Screenshot:**
-![GitHub Search](screenshots/04-github-linkedin.png)
+![GitHub Search](screenshots/github.png)
 
 ---
 
 ## 3. Subdomain Inventory
 
-Based on passive enumeration via `crt.sh`, a total of **[Insert Total Number, e.g., 150+]** unique subdomains were identified.
+Based on passive enumeration via `crt.sh`, a total of **404** unique subdomains were identified.
 
 **Three Examples:**
-1.  `[Subdomain 1, e.g., api.safaricom.co.ke]`
-2.  `[Subdomain 2, e.g., mypage.safaricom.co.ke]`
-3.  `[Subdomain 3, e.g., staging.safaricom.co.ke]` *(Note: Marked as out-of-scope per policy).*
-
+1.  `authdxl.safaricom.co.ke`
+2.  `azurevpn.safaricom.co.ke`
+3.  `business.safaricom.co.ke` 
 ---
 
 ## 4. Top Three Findings & Impact Reasoning
@@ -79,7 +78,7 @@ To ensure strict compliance with the assignment's passive reconnaissance require
 *   **No Active Enumeration:** No DNS brute-forcing (e.g., Gobuster, ffuf) was conducted.
 *   **No Exploitation:** No vulnerabilities were tested, and no credentials were attempted.
 
-**Reason:** The mission brief strictly mandates OSINT-only techniques.
+
 
 ---
 *End of Report*
